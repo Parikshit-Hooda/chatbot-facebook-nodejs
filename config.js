@@ -1,7 +1,7 @@
 module.exports = {
-    FB_PAGE_TOKEN: '',
-    FB_VERIFY_TOKEN: '',
-    API_AI_CLIENT_ACCESS_TOKEN: '',
-    FB_APP_SECRET: '',
-    SERVER_URL: "",
+    FB_PAGE_TOKEN: 'EAADjjxguKGEBAAIecbbMK7Icgz7DDfZB3rNa7ZAtt6jt8OW3XhPf0TNqpEnS5nKCZAuvO88fMZAT9YJ7ZBy671WlyG7TmiZCVjBYfDDEn55Xk0h7FdwLv20rkIMkZAdkQSbOrKdZAG7SNWq1Ad5rxVEdjUJSboc0DD8C3JiirNk5S9BJ285E28Ag',
+    FB_VERIFY_TOKEN: 'music-bot-with-lastfm',
+    API_AI_CLIENT_ACCESS_TOKEN: 'e6aa39890ab54d60973dff2a5a891d20',
+    FB_APP_SECRET: '0b0cbf7ad2eaec7b0477e99e2ba13c64',
+    SERVER_URL: "http://music8ot.herokuapp.com/"
 };
