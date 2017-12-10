@@ -170,7 +170,7 @@ function handleMessageAttachments(messageAttachments, senderID){
 }
 
 function handleQuickReply(senderID, quickReply, messageId) {
-	var quickReplyPayload = quickReply.payload;
+	var quickReply= quickReply.payload;
 	console.log("Quick reply for message %s with payload %s", messageId, quickReplyPayload);
 	//send payload to api.ai
 	sendToApiAi(senderID, quickReplyPayload);
@@ -721,6 +721,8 @@ function receivedPostback(event) {
 	var payload = event.postback.payload;
 
 	switch (payload) {
+		case "FACEBOOK_WELCOME":
+			greetUserText(senderID);
 		default:
 			//unindentified payload
 			sendTextMessage(senderID, "I'm not sure what you want. Can you be more specific?");
